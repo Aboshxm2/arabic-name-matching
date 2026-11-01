@@ -1,0 +1,21 @@
+{
+  "name": "arabic-name-matching",
+  "interface": {
+    "displayName": "Arabic Name Matching"
+  },
+  "plugins": [
+    {
+      "name": "arabic-name-matching",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Aboshxm2/arabic-name-matching.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

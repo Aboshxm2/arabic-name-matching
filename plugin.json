@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "arabic-name-matching",
+  "version": "1.0.0",
+  "description": "Match Arabic personal names between lists, such as a roster against attendance sign-ins. Handles spelling variants, shortened and Latin-script names, links each person's submissions, and asks before applying doubtful matches.",
+  "author": {
+    "name": "Aboshxm2",
+    "url": "https://github.com/Aboshxm2"
+  },
+  "homepage": "https://github.com/Aboshxm2/arabic-name-matching",
+  "repository": "https://github.com/Aboshxm2/arabic-name-matching",
+  "license": "MIT",
+  "keywords": [
+    "arabic",
+    "names",
+    "name-matching",
+    "attendance",
+    "roster",
+    "spreadsheets"
+  ]
+}

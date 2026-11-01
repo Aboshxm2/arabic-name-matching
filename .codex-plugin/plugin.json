@@ -1,0 +1,38 @@
+{
+  "name": "arabic-name-matching",
+  "version": "1.0.0",
+  "description": "Match Arabic personal names between lists, such as a roster against attendance sign-ins. Handles spelling variants, shortened and Latin-script names, links each person's submissions, and asks before applying doubtful matches.",
+  "author": {
+    "name": "Aboshxm2",
+    "url": "https://github.com/Aboshxm2"
+  },
+  "homepage": "https://github.com/Aboshxm2/arabic-name-matching",
+  "repository": "https://github.com/Aboshxm2/arabic-name-matching",
+  "license": "MIT",
+  "keywords": [
+    "arabic",
+    "names",
+    "name-matching",
+    "attendance",
+    "roster",
+    "spreadsheets"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Arabic Name Matching",
+    "shortDescription": "Match Arabic names across rosters and sign-in sheets",
+    "longDescription": "Finds the people on a roster among form exports, allowing for the many ways Arabic names are written, and writes an attendance workbook. Doubtful pairs are put to you instead of guessed.",
+    "developerName": "Aboshxm2",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Aboshxm2/arabic-name-matching",
+    "defaultPrompt": [
+      "Match this roster against the sign-in sheets and show who attended each session",
+      "Who on this list never attended, and who came without being registered?",
+      "Find these withdrawn students in the attendance files"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-"""Tests for scripts/match_names.py. Every name here is made up. Run: python3 -m unittest discover tests"""
+"""Tests for the skill's match_names.py. Every name here is made up. Run: python3 -m unittest discover tests"""
 
 import os
 import subprocess
@@ -7,8 +7,9 @@ import tempfile
 import unittest
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SCRIPT = os.path.join(ROOT, "scripts", "match_names.py")
-sys.path.insert(0, os.path.join(ROOT, "scripts"))
+SCRIPTS = os.path.join(ROOT, "skills", "arabic-name-matching", "scripts")
+SCRIPT = os.path.join(SCRIPTS, "match_names.py")
+sys.path.insert(0, SCRIPTS)
 
 import xlsx_lite  # noqa: E402
 

@@ -1,0 +1,17 @@
+{
+  "name": "arabic-name-matching",
+  "owner": {
+    "name": "Aboshxm2",
+    "url": "https://github.com/Aboshxm2"
+  },
+  "metadata": {
+    "description": "Match Arabic personal names between lists, such as a roster against attendance sign-ins. Handles spelling variants, shortened and Latin-script names, links each person's submissions, and asks before applying doubtful matches."
+  },
+  "plugins": [
+    {
+      "name": "arabic-name-matching",
+      "source": "./",
+      "description": "Match Arabic personal names between lists, such as a roster against attendance sign-ins. Handles spelling variants, shortened and Latin-script names, links each person's submissions, and asks before applying doubtful matches."
+    }
+  ]
+}
