@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: apply-user-decisions
+expected_outcome: |
+  A decisions file that confirms هيا محمد الشهري and rejects دانة خالد العتيبي !=
+  دانة خالد العيتبي, saved with the input files, and a new workbook made with it: هيا محمد الشهري
+  is matched (confirmed) and present in the first session; دانة خالد العتيبي is not found, and
+  دانة خالد العيتبي is no longer suggested for her.
+context:
+  scaffold_script: place-files.sh

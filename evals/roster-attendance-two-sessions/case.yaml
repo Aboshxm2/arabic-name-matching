@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: roster-attendance-two-sessions
+expected_outcome: |
+  An attendance workbook made with the bundled script from the second sheet of roster.xlsx.
+  نورة سعد الحربي and مها الزهراني attended both sessions, سارة فهد القحطاني the first (she signed in
+  as "Sarah Fahad Algahtani") and ريم عبدالرحمن العمري the second. جود ناصر الدوسري and
+  لين خالد الحربي never attended, and لين is not matched to ليان خالد الحربي. لمى فهد القحطاني and
+  ليان خالد الحربي attended without being on the roster. هيا محمد الشهري (signed in as "هيا محمد" on
+  the account HAYA ALSHAHRI) and دانة خالد العتيبي (signed in as "دانة خالد العيتبي") are put to the
+  user to confirm, not counted as present.
+context:
+  scaffold_script: place-files.sh
